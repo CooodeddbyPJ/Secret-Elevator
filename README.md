@@ -87,17 +87,11 @@ Going up.....
 *Ding!* You have arrived.
 
 🛠️ How to Run
-Clone the Repository:
-
-Bash
-
-git clone [https://github.com/CooodeddbyPJ/The-Secret-Elevator.git](https://github.com/CooodeddbyPJ/The-Secret-Elevator.git)
-Open the project in Visual Studio, VS Code, or SharpDevelop.
-
-Compile and Run Program.cs.
-
-Enter a secret code from the table above.
-
+1. Clone the Repository:
+git clone https://github.com/CooodeddbyPJ/The-Secret-Elevator.git
+2. Open the Project: Launch Visual Studio, VS Code, or SharpDevelop.
+3. Run: Compile and run Program.cs.
+4. Play: Enter a secret code from the table above.
 <div align="center">
 
 👤 Author
