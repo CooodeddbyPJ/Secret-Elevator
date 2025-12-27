@@ -1,62 +1,83 @@
-# 🛗 The Secret Elevator – C# Console Application
+<div align="center">
 
-## 📌 Description
-A beginner-friendly C# console program that simulates a **security system for a secret elevator**.  
-The user must enter the correct secret code to access a specific floor.  
-Each floor has its own unique code, and incorrect entries will be denied.
+# 🛗 The Secret Elevator
+### *Refactored Legacy Edition (v2.0)*
 
----
+> *System Status: ONLINE* | *Security Level: HIGH*
 
-## 🎯 Features
-- **Multiple floors** with unique secret codes  
-- **If-else statements** for decision-making  
-- **Clear console messages** for access granted or denied  
-- Beginner-friendly structure for learning conditional logic  
+[![Language](https://img.shields.io/badge/Language-C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![Platform](https://img.shields.io/badge/Platform-Console_App-blue?style=for-the-badge&logo=windows-terminal&logoColor=white)](https://dotnet.microsoft.com/)
+[![Compatibility](https://img.shields.io/badge/IDE-VS%20%7C%20SharpDevelop-purple?style=for-the-badge)](https://visualstudio.microsoft.com/)
 
----
+<br />
 
-## 🔢 Floor Codes
-| Secret Code | Floor Number |
-|-------------|--------------|
-| 135         | First Floor  |
-| 246         | Second Floor |
-| 357         | Third Floor  |
-| 999         | Fourth Floor |
-| 579         | Fifth Floor  |
+</div>
+
+## 📌 Mission Briefing
+**The Secret Elevator** is a robust C# Console Application that simulates a high-security building transport system.
+
+Originally a *freshman legacy project*, this system has been **completely refactored**. It replaces fragile legacy code (nested if-else chains) with **Dictionary Data Structures** and **O(1) Lookup Logic**, making it crash-proof, scalable, and secure.
 
 ---
 
-## 📚 Learning Objectives
-- Understand and implement **if-else conditions** in C#  
-- Practice basic user input handling with `Console.ReadLine()`  
-- Use `Convert.ToInt32()` to work with numeric inputs  
-- Build simple interactive console applications  
+## 🚀 Key Upgrades (v2.0)
+
+| Feature | Description |
+| :--- | :--- |
+| **🛡️ Privacy First** | Passwords are now **masked** with asterisks (`***`) using `Console.ReadKey(true)`. |
+| **🏗️ Better Logic** | Migrated from spaghetti `if-else` to robust **Dictionaries** for floor management. |
+| **🔧 Anti-Crash** | Implemented `int.TryParse` to handle non-numeric inputs gracefully. |
+| **🎨 UI Polish** | Added ASCII Art, loading delays (`Thread.Sleep`), and sound cues (`Console.Beep`). |
+| **🔄 Loop System** | The program now runs continuously via a `while` loop until manually exited. |
 
 ---
 
-## 🖥️ How to Run
-1. Open the project in **Visual Studio** or any C# IDE.  
-2. Build and run the program.  
-3. Enter one of the secret codes when prompted.  
-4. The program will display the corresponding floor or deny access.
+## 🔢 Classified Access Codes
+
+<div align="center">
+
+| 🔑 Code | 🏢 Destination | 🔒 Security Clearance |
+| :---: | :--- | :---: |
+| **135** | First Floor - **Lobby** | LOW |
+| **246** | Second Floor - **Research Lab** | MED |
+| **357** | Third Floor - **IT Department** | MED |
+| **999** | Fourth Floor - **Executive Suite** | HIGH |
+| **579** | Fifth Floor - **Rooftop Garden** | HIGH |
+| **0** | **BASEMENT** | **RESTRICTED** |
+
+</div>
 
 ---
 
-## 💡 Example Output
-```
-Welcome to the Secret Elevator!
-Please enter the secret code to access the elevator:
-246
-Welcome to Second Floor!
-```
-```
-Welcome to the Secret Elevator!
-Please enter the secret code to access the elevator:
-111
-Access denied! Incorrect secret code.
-```
+## 📚 Technical Concepts Applied
+This project demonstrates mastery of core C# fundamentals:
+* **Collections:** `Dictionary<int, string>` for efficient state management.
+* **Input Validation:** Preventing runtime errors with defensive coding.
+* **Console UX:** Manipulating cursor visibility and text feedback.
+* **Threading:** Simulating real-world delays using `System.Threading`.
 
 ---
 
-## 🏷️ Author
-Created by **Full Stack Dreamer** as part of a C# programming exercise.
+## 🖥️ Terminal Preview
+
+```text
+      __________________
+     |  ______________  |
+     | |              | |
+     | |    SECRET    | |
+     | |   ELEVATOR   | |
+     | |              | |
+     | |______________| |
+     |__________________|
+
+[ SYSTEM LOCKED ]
+Enter Access Code: ***
+
+Verifying identity...
+█▒▒▒▒▒▒▒▒▒
+
+ACCESS GRANTED.
+Transporting to: Fifth Floor - Rooftop Garden
+Going up.....
+
+*Ding!* You have arrived.
