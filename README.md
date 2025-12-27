@@ -91,27 +91,3 @@ This project serves as a demonstration of core C# mastery:
 
 </div>
 ---
-
-## 🖥️ Terminal Preview
-
-```text
-      __________________
-     |  ______________  |
-     | |              | |
-     | |    SECRET    | |
-     | |   ELEVATOR   | |
-     | |              | |
-     | |______________| |
-     |__________________|
-
-[ SYSTEM LOCKED ]
-Enter Access Code: ***
-
-Verifying identity...
-█▒▒▒▒▒▒▒▒▒
-
-ACCESS GRANTED.
-Transporting to: Fifth Floor - Rooftop Garden
-Going up.....
-
-*Ding!* You have arrived.
