@@ -64,28 +64,7 @@ This project serves as a demonstration of core C# mastery:
 
 ## 🖥️ Terminal Preview
 
-```text
-      __________________
-     |  ______________  |
-     | |              | |
-     | |    SECRET    | |
-     | |   ELEVATOR   | |
-     | |              | |
-     | |______________| |
-     |__________________|
-
-[ SYSTEM LOCKED ]
-Enter Access Code: ***
-
-Verifying identity...
-█▒▒▒▒▒▒▒▒▒
-
-ACCESS GRANTED.
-Transporting to: Fifth Floor - Rooftop Garden
-Going up.....
-
-*Ding!* You have arrived.
-
+---
 ## 🛠️ How to Run
 
 1.  **Clone the Repository**
@@ -115,3 +94,26 @@ Going up.....
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CooodeddbyPJ)
 
 </div>
+
+
+```text
+      __________________
+     |  ______________  |
+     | |              | |
+     | |    SECRET    | |
+     | |   ELEVATOR   | |
+     | |              | |
+     | |______________| |
+     |__________________|
+
+[ SYSTEM LOCKED ]
+Enter Access Code: ***
+
+Verifying identity...
+█▒▒▒▒▒▒▒▒▒
+
+ACCESS GRANTED.
+Transporting to: Fifth Floor - Rooftop Garden
+Going up.....
+
+*Ding!* You have arrived.
