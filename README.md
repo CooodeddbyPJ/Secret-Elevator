@@ -61,10 +61,6 @@ This project serves as a demonstration of core C# mastery:
 * **Refactoring:** The process of converting legacy code into modular, maintainable logic.
 
 ---
-
-## 🖥️ Terminal Preview
-
----
 ## 🛠️ How to Run
 
 1.  **Clone the Repository**
@@ -94,7 +90,9 @@ This project serves as a demonstration of core C# mastery:
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CooodeddbyPJ)
 
 </div>
+---
 
+## 🖥️ Terminal Preview
 
 ```text
       __________________
